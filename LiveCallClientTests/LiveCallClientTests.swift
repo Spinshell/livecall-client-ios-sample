@@ -2,7 +2,7 @@
 //  LiveCallClientTests.swift
 //  LiveCallClientTests
 //
-//  Created by Ngo Tuan Long on 29/11/2023.
+//  Created by LongNT on 29/11/2023.
 //
 
 import XCTest
