@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91F58D622B16EB0800508B0B /* LiveCallClientApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F58D612B16EB0800508B0B /* LiveCallClientApp.swift */; };
+		91F58D642B16EB0800508B0B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F58D632B16EB0800508B0B /* ContentView.swift */; };
+		91F58D662B16EB0900508B0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F58D652B16EB0900508B0B /* Assets.xcassets */; };
+		91F58D692B16EB0900508B0B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 91F58D682B16EB0900508B0B /* Preview Assets.xcassets */; };
+		91F58D732B16EB0900508B0B /* LiveCallClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F58D722B16EB0900508B0B /* LiveCallClientTests.swift */; };
+		91F58D7D2B16EB0900508B0B /* LiveCallClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F58D7C2B16EB0900508B0B /* LiveCallClientUITests.swift */; };
+		91F58D7F2B16EB0900508B0B /* LiveCallClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91F58D7E2B16EB0900508B0B /* LiveCallClientUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91F58D6F2B16EB0900508B0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F58D562B16EB0800508B0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F58D5D2B16EB0800508B0B;
+			remoteInfo = LiveCallClient;
+		};
+		91F58D792B16EB0900508B0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91F58D562B16EB0800508B0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91F58D5D2B16EB0800508B0B;
+			remoteInfo = LiveCallClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		91F58D5E2B16EB0800508B0B /* LiveCallClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveCallClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F58D612B16EB0800508B0B /* LiveCallClientApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCallClientApp.swift; sourceTree = "<group>"; };
+		91F58D632B16EB0800508B0B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		91F58D652B16EB0900508B0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		91F58D682B16EB0900508B0B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		91F58D6E2B16EB0900508B0B /* LiveCallClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveCallClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F58D722B16EB0900508B0B /* LiveCallClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCallClientTests.swift; sourceTree = "<group>"; };
+		91F58D782B16EB0900508B0B /* LiveCallClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LiveCallClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		91F58D7C2B16EB0900508B0B /* LiveCallClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCallClientUITests.swift; sourceTree = "<group>"; };
+		91F58D7E2B16EB0900508B0B /* LiveCallClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveCallClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91F58D5B2B16EB0800508B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F58D6B2B16EB0900508B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F58D752B16EB0900508B0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91F58D552B16EB0800508B0B = {
+			isa = PBXGroup;
+			children = (
+				91F58D602B16EB0800508B0B /* LiveCallClient */,
+				91F58D712B16EB0900508B0B /* LiveCallClientTests */,
+				91F58D7B2B16EB0900508B0B /* LiveCallClientUITests */,
+				91F58D5F2B16EB0800508B0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91F58D5F2B16EB0800508B0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91F58D5E2B16EB0800508B0B /* LiveCallClient.app */,
+				91F58D6E2B16EB0900508B0B /* LiveCallClientTests.xctest */,
+				91F58D782B16EB0900508B0B /* LiveCallClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91F58D602B16EB0800508B0B /* LiveCallClient */ = {
+			isa = PBXGroup;
+			children = (
+				91F58D612B16EB0800508B0B /* LiveCallClientApp.swift */,
+				91F58D632B16EB0800508B0B /* ContentView.swift */,
+				91F58D652B16EB0900508B0B /* Assets.xcassets */,
+				91F58D672B16EB0900508B0B /* Preview Content */,
+			);
+			path = LiveCallClient;
+			sourceTree = "<group>";
+		};
+		91F58D672B16EB0900508B0B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				91F58D682B16EB0900508B0B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		91F58D712B16EB0900508B0B /* LiveCallClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				91F58D722B16EB0900508B0B /* LiveCallClientTests.swift */,
+			);
+			path = LiveCallClientTests;
+			sourceTree = "<group>";
+		};
+		91F58D7B2B16EB0900508B0B /* LiveCallClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				91F58D7C2B16EB0900508B0B /* LiveCallClientUITests.swift */,
+				91F58D7E2B16EB0900508B0B /* LiveCallClientUITestsLaunchTests.swift */,
+			);
+			path = LiveCallClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91F58D5D2B16EB0800508B0B /* LiveCallClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F58D822B16EB0900508B0B /* Build configuration list for PBXNativeTarget "LiveCallClient" */;
+			buildPhases = (
+				91F58D5A2B16EB0800508B0B /* Sources */,
+				91F58D5B2B16EB0800508B0B /* Frameworks */,
+				91F58D5C2B16EB0800508B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LiveCallClient;
+			productName = LiveCallClient;
+			productReference = 91F58D5E2B16EB0800508B0B /* LiveCallClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91F58D6D2B16EB0900508B0B /* LiveCallClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F58D852B16EB0900508B0B /* Build configuration list for PBXNativeTarget "LiveCallClientTests" */;
+			buildPhases = (
+				91F58D6A2B16EB0900508B0B /* Sources */,
+				91F58D6B2B16EB0900508B0B /* Frameworks */,
+				91F58D6C2B16EB0900508B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F58D702B16EB0900508B0B /* PBXTargetDependency */,
+			);
+			name = LiveCallClientTests;
+			productName = LiveCallClientTests;
+			productReference = 91F58D6E2B16EB0900508B0B /* LiveCallClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		91F58D772B16EB0900508B0B /* LiveCallClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91F58D882B16EB0900508B0B /* Build configuration list for PBXNativeTarget "LiveCallClientUITests" */;
+			buildPhases = (
+				91F58D742B16EB0900508B0B /* Sources */,
+				91F58D752B16EB0900508B0B /* Frameworks */,
+				91F58D762B16EB0900508B0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91F58D7A2B16EB0900508B0B /* PBXTargetDependency */,
+			);
+			name = LiveCallClientUITests;
+			productName = LiveCallClientUITests;
+			productReference = 91F58D782B16EB0900508B0B /* LiveCallClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91F58D562B16EB0800508B0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					91F58D5D2B16EB0800508B0B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					91F58D6D2B16EB0900508B0B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 91F58D5D2B16EB0800508B0B;
+					};
+					91F58D772B16EB0900508B0B = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 91F58D5D2B16EB0800508B0B;
+					};
+				};
+			};
+			buildConfigurationList = 91F58D592B16EB0800508B0B /* Build configuration list for PBXProject "LiveCallClient" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91F58D552B16EB0800508B0B;
+			productRefGroup = 91F58D5F2B16EB0800508B0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91F58D5D2B16EB0800508B0B /* LiveCallClient */,
+				91F58D6D2B16EB0900508B0B /* LiveCallClientTests */,
+				91F58D772B16EB0900508B0B /* LiveCallClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91F58D5C2B16EB0800508B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F58D692B16EB0900508B0B /* Preview Assets.xcassets in Resources */,
+				91F58D662B16EB0900508B0B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F58D6C2B16EB0900508B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F58D762B16EB0900508B0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91F58D5A2B16EB0800508B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F58D642B16EB0800508B0B /* ContentView.swift in Sources */,
+				91F58D622B16EB0800508B0B /* LiveCallClientApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F58D6A2B16EB0900508B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F58D732B16EB0900508B0B /* LiveCallClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F58D742B16EB0900508B0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91F58D7D2B16EB0900508B0B /* LiveCallClientUITests.swift in Sources */,
+				91F58D7F2B16EB0900508B0B /* LiveCallClientUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91F58D702B16EB0900508B0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91F58D5D2B16EB0800508B0B /* LiveCallClient */;
+			targetProxy = 91F58D6F2B16EB0900508B0B /* PBXContainerItemProxy */;
+		};
+		91F58D7A2B16EB0900508B0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91F58D5D2B16EB0800508B0B /* LiveCallClient */;
+			targetProxy = 91F58D792B16EB0900508B0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		91F58D802B16EB0900508B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		91F58D812B16EB0900508B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91F58D832B16EB0900508B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveCallClient/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.livecall.3.sample.LiveCallClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91F58D842B16EB0900508B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LiveCallClient/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.livecall.3.sample.LiveCallClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91F58D862B16EB0900508B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.livecall.3.sample.LiveCallClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveCallClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveCallClient";
+			};
+			name = Debug;
+		};
+		91F58D872B16EB0900508B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.livecall.3.sample.LiveCallClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LiveCallClient.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/LiveCallClient";
+			};
+			name = Release;
+		};
+		91F58D892B16EB0900508B0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.livecall.3.sample.LiveCallClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveCallClient;
+			};
+			name = Debug;
+		};
+		91F58D8A2B16EB0900508B0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.livecall.3.sample.LiveCallClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = LiveCallClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91F58D592B16EB0800508B0B /* Build configuration list for PBXProject "LiveCallClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F58D802B16EB0900508B0B /* Debug */,
+				91F58D812B16EB0900508B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F58D822B16EB0900508B0B /* Build configuration list for PBXNativeTarget "LiveCallClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F58D832B16EB0900508B0B /* Debug */,
+				91F58D842B16EB0900508B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F58D852B16EB0900508B0B /* Build configuration list for PBXNativeTarget "LiveCallClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F58D862B16EB0900508B0B /* Debug */,
+				91F58D872B16EB0900508B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91F58D882B16EB0900508B0B /* Build configuration list for PBXNativeTarget "LiveCallClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91F58D892B16EB0900508B0B /* Debug */,
+				91F58D8A2B16EB0900508B0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91F58D562B16EB0800508B0B /* Project object */;
+}
